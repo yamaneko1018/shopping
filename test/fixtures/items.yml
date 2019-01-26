@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  item: MyString
+  item_kana: MyString
+  stock: 1
+  price: 1
+  flag: MyString
+
+two:
+  item: MyString
+  item_kana: MyString
+  stock: 1
+  price: 1
+  flag: MyString
