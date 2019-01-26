@@ -1,2 +1,9 @@
-<h1>Items#index</h1>
-<p>Find me in app/views/items/index.html.erb</p>
+<h1><%= "商品一覧" %></h1>
+
+<%= @items.each do |item| %>
+  <p><%= item.item %></p>
+  <p><%= item.item_kana %></p>
+  <p><%= item.stock %></p>
+  <p><%= item.price %></p>
+  <p><%= item.flag %></p>
+<% end %>
