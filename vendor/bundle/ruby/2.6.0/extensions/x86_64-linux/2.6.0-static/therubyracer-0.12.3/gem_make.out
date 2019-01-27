@@ -1,5 +1,5 @@
 current directory: /app/rails/sample/shopping/vendor/bundle/ruby/2.6.0/gems/therubyracer-0.12.3/ext/v8
-/usr/local/rbenv/versions/2.6.0/bin/ruby -I /usr/local/rbenv/versions/2.6.0/lib/ruby/2.6.0 -r ./siteconf20190126-32463-h7jb86.rb extconf.rb
+/usr/local/rbenv/versions/2.6.0/bin/ruby -I /usr/local/rbenv/versions/2.6.0/lib/ruby/2.6.0 -r ./siteconf20190126-13370-1iae6wv.rb extconf.rb
 checking for -lpthread... yes
 creating Makefile
 
@@ -213,4 +213,4 @@ linking shared-object v8/init.so
 
 current directory: /app/rails/sample/shopping/vendor/bundle/ruby/2.6.0/gems/therubyracer-0.12.3/ext/v8
 make "DESTDIR=" install
-/bin/install -c -m 0755 init.so ./.gem.20190126-32463-1obdrj5/v8
+/bin/install -c -m 0755 init.so ./.gem.20190126-13370-1nt4y2v/v8
