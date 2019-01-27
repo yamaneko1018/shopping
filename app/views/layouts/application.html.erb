@@ -9,20 +9,19 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <header>
-    <ul>
-      <li><a href = "http://192.168.33.11:3000/">マイページ</a></li>
-　　　<li><a href = "http://192.168.33.11:3000/users/edit">会員情報</a></li>
-　　　<li><a href = "http://192.168.33.11:3000/items">商品一覧</a></li>
-    </ul>
-  </header>
-
   <body>
+     <header>
+      <ul>
+        <li><a href = "http://192.168.33.11:3000/">マイページ</a></li>
+        <li><a href = "http://192.168.33.11:3000/users/edit">会員情報</a></li>
+        <li><a href = "http://192.168.33.11:3000/items">商品一覧</a></li>
+      </ul>
+    </header>
     <%= yield %>
-  </body>
 
-  <footer>
-    <p>©︎2018-2019 Copyright Samubuc Corp.</p>
-  </footer>
+    <footer>
+      <p>©︎2018-2019 Copyright Samubuc Corp.</p>
+    </footer>
+  </body>
 
 </html>
