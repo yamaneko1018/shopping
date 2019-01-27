@@ -12,9 +12,9 @@
   <body>
      <header>
       <ul>
-        <li><a href = "http://192.168.33.11:3000/">マイページ</a></li>
-        <li><a href = "http://192.168.33.11:3000/users/edit">会員情報</a></li>
-        <li><a href = "http://192.168.33.11:3000/items">商品一覧</a></li>
+        <li><%= link_to "マイページ", root_path %></li>
+        <li><%= link_to "会員情報", edit_user_registration_path %></li>
+        <li><%= link_to "商品一覧", items_path %></li>
       </ul>
     </header>
     <%= yield %>
